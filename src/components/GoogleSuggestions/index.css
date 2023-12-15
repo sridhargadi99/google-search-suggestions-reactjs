@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+}
+
+@media screen and (max-width: 768px) {
+  .sub-container {
+    width: 300px;
+  }
+}
+
+.logo-style {
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo-style {
+    width: 120px;
+  }
+}
+
+.suggestion-container {
+  border-radius: 10px;
+  border-width: 0px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 15px;
+}
+.img-input-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.searchIcon-style {
+  height: 30px;
+  width: 30px;
+}
+
+.input-style {
+  height: 30px;
+  width: 100%;
+  border-width: 0px;
+  padding-left: 10px;
+  margin-left: 10px;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  outline: none;
+}

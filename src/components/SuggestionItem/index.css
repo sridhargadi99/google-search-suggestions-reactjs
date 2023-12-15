@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.list-style {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.paragraph-style {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.arrow-button-style {
+  border-width: 0px;
+  background-color: transparent;
+}
+
+.arrow-style {
+  height: 30px;
+  width: 30px;
+}
